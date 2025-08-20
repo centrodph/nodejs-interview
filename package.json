@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-interview",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Scaffold for Node.js interview exercises",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.16.0 <23"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon --watch src --ext js,mjs,cjs,json src/server.js",
+    "test": "node --test --experimental-test-coverage",
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  }
+}
+
+
