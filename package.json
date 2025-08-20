@@ -9,16 +9,14 @@
     "node": ">=22.16.0 <23"
   },
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon --watch src --ext js,mjs,cjs,json src/server.js",
-    "test": "node --test --experimental-test-coverage",
+    "one": "node ./src/sample_01.js",
+    "two": "node ./src/sample_02.js",
+    "three": "node ./src/sample_03.js",
+    "four": "node ./src/sample_04.js",
+    "five": "node ./src/sample_05.js"
   },
-  "dependencies": {
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.7",
-    "prettier": "^3.3.3"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
 
 
