@@ -13,10 +13,9 @@
     "two": "node ./src/sample_02.js",
     "three": "node ./src/sample_03.js",
     "four": "node ./src/sample_04.js",
-    "five": "node ./src/sample_05.js"
+    "five": "node ./src/sample_05.js",
+    "six": "node --max-old-space-size=50 --stack-size=80 ./src/sample_06.js"
   },
   "dependencies": {},
   "devDependencies": {}
 }
-
-
