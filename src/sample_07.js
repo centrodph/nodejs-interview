@@ -4,9 +4,9 @@ function delayedValue() {
 
 (async () => {
   console.log("Before");
-  const result = delayedValue();
+  const result = await delayedValue();
+  console.log(result);
   console.log("After");
-  console.log(await result);
 })();
 
 // cual es el print y porque
