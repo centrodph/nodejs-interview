@@ -9,4 +9,4 @@ function delayedValue() {
   console.log("After");
 })();
 
-// cual es el print y porque
+// que imprime y porque
